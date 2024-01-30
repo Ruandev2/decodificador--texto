@@ -31,15 +31,19 @@
     justify-content: space-evenly;
     align-items: center;
   
-    background-color: var(--primary-background);
+    background:var(  --primary-btn-background);
   }
   
   footer {
     position: absolute;
+    text-align: center;
+    width: 100%;
     bottom: 0px;
     padding: 20px;
     color: var( --primary-btn-color);
+    font-size: 200%;
     font-weight: 700;
+    background-color: var(--primary-background);
     
   }
   
@@ -81,6 +85,8 @@
     color: var(--secondary-font-color);
     text-align: center;
     font-family: Inter;
+    width: 100%;
+    padding: 5px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -103,13 +109,13 @@
     background-color: var(--secondary-background);
     width: 440px;
     height: 90%;
-  
+    padding: 10px 0 0 10px;
     display: flex;
     text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+
     border-radius: 32px;
     background: var(--secondary-background);
   
@@ -122,11 +128,17 @@
     height: 304px;
   }
   
-  #input {
+  #input  {
     border: none;
-    width: 90%;
-    height: 48px;
+    width: 440px;
+    height: 400%;
+    border-radius: 10px;
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
   
+    align-items: center;
     max-width: 100%;
     max-height: 100%;
   
@@ -135,9 +147,9 @@
     font-weight: 400;
     line-height: 150%; /* 48px */
     
-    --secondary-background: white;
+   --primary-background: white;
   }
-  
+
   .alura-img {
     margin-top: 20px;
   }
@@ -185,13 +197,14 @@
     background-color: var(--secondary-btn-background-hover);
   }
   
-  .dark-blue {
-    background-color: var(--primary-btn-background);
+  .dark-roxo {
+    background-color: var(--primary-background);
     border: none;
     color: var(--primary-btn-color);
+    gap: 15px;
   }
   
-  .dark-blue:hover {
+  .dark-roxo:hover {
     background-color: var(--primary-btn-background-hover);
   }
   
